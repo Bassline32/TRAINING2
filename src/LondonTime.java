@@ -8,7 +8,6 @@ public class LondonTime {
 
         ZonedDateTime londonTime = ZonedDateTime.now(ZoneId.of("Europe/London"));
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
-        //System.out.println("Сейчас в Лондоне: " + formatter.format(londonTime));
         return formatter.format(londonTime);
 
     }
